@@ -151,3 +151,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 327292d5382535646bfa032b09e02658, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shotCrackPrefab: {fileID: 2982146233173589351, guid: 7bf52516d6bfb1343b00be05166fe333, type: 3}

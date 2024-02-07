@@ -51,7 +51,7 @@ public class RotadorExtremidades : MonoBehaviour
         anguloTotal += direccion*angulo;
 
         transform.localEulerAngles = new Vector3(anguloTotal,0,0);
-        Debug.Log("Se inicia animación");
+        //Debug.Log("Se inicia animación");
     }
 
     public void PararAnimacion(){

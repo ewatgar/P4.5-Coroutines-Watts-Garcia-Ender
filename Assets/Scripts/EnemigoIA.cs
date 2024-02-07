@@ -63,7 +63,7 @@ public class EnemigoIA : MonoBehaviour
         switch (estado)
         {
             case EstadoEnemigo.Andando:
-                Debug.Log("Se mueve");
+                //Debug.Log("Se mueve");
                 characterController.Move(transform.forward * speed * Time.deltaTime);
                 IniciarAnimacion();
                 break;
