@@ -6,7 +6,7 @@ public class Bullet : MonoBehaviour
 {
     public enum FadeMethod{
         Lerp,
-        ShoothDamp
+        SmoothDamp
     }
 
     float time = 0;
@@ -61,11 +61,13 @@ public class Bullet : MonoBehaviour
             spawnCrack(hit);
             shotCrackPlaced = true;
         }
-        yield return new WaitForSeconds(crackSeconds);
+        //yield return new WaitForSeconds(crackSeconds);
         
         Material m = shotCrack.GetComponent<Renderer>().material;
         Color alphaColor = new Color(m.color.r, m.color.g, m.color.b, m.color.a);
         
+
+
         switch(fadeMethod){
             case FadeMethod.Lerp:
                 for(float s=0; s<fadeTime; s+=Time.deltaTime){
@@ -73,18 +75,15 @@ public class Bullet : MonoBehaviour
                     m.color = alphaColor;
                     yield return null;
                 }
-
-            break;
-            case FadeMethod.ShoothDamp:
+                break;
+            case FadeMethod.SmoothDamp:
                 float v = 0;
                 for(float s=0; s<fadeTime; s+=Time.deltaTime){
-                    //alphaColor.a = Mathf.Lerp(1, 0, s/fadeTime);
                     alphaColor.a = Mathf.SmoothDamp(1, 0, ref v, s/fadeTime);
                     m.color = alphaColor;
                     yield return null;
                 }
-
-            break;
+                break;
         }
         
         Destroy(shotCrack);
