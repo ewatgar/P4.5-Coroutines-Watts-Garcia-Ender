@@ -1,4 +1,5 @@
 
+using System;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -10,7 +11,7 @@ public class EnemigoIA : MonoBehaviour
         Andando = 1
     }
 
-    EstadoEnemigo estado;
+    [SerializeField] EstadoEnemigo estado;
     private RotadorExtremidades[] rotadores;
     private CharacterController characterController;
     public float speed = 2;
@@ -21,6 +22,7 @@ public class EnemigoIA : MonoBehaviour
     public float maxDistance = 0.2f;
     public GameObject DEBUGCurrentHitObject; //para debugear
     public float DEBUGCurrentHitDistance; //para debugear
+    public Boolean iniciarAnimacion = false;
 
     //---------------------------------
     float vy = -10;
@@ -32,7 +34,6 @@ public class EnemigoIA : MonoBehaviour
     {
         characterController = GetComponent<CharacterController>();
         rotadores = GetComponentsInChildren<RotadorExtremidades>();
-        IniciarAnimacion();
     }
 
     void Update()
