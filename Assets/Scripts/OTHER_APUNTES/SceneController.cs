@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SceneController : MonoBehaviour
 {
+    /*
     [SerializeField]
     private GameObject miPrefab;
 
@@ -17,7 +18,7 @@ public class SceneController : MonoBehaviour
     public int enemyCount = 10;
     public float spawnAreaWidth = 20;
     public float spawnAreaHeight = 26;
-    public float spawnTime = 1;
+    public float spawnTime = 1;*/
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +29,7 @@ public class SceneController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         tiempo += Time.deltaTime;
 
         if (tiempo >= momentoSiguienteEnemigo && numInstancias<enemyCount){
@@ -44,6 +46,6 @@ public class SceneController : MonoBehaviour
             nuevoObjeto.SetTarget(player);
             momentoSiguienteEnemigo += spawnTime;
             numInstancias++;
-        }
+        }*/
     }
 }
