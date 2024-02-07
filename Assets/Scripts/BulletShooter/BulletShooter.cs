@@ -27,7 +27,6 @@ public class BulletShooter : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0)){
             spawnBullet();
-            //spawnCrack();
         }
     }
 
@@ -50,17 +49,5 @@ public class BulletShooter : MonoBehaviour
             position: cannonPoint.transform.position,
             rotation: cannonPoint.transform.rotation
         );
-    }
-
-    private void spawnCrack(){
-        Vector3 p = new Vector3(cam.pixelWidth/2, cam.pixelHeight/2, 0);
-            Ray ray = cam.ScreenPointToRay(p);
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, Mathf.Infinity, LayerMask.GetMask("Shootable"))){
-                GameObject shotCrack = Instantiate(shotCrackPrefab) as GameObject;
-                shotCrack.transform.position = hit.point + hit.normal*0.01f;
-                shotCrack.transform.LookAt(hit.point - hit.normal);
-                shotCrack.transform.SetParent(hit.transform, true);
-            }
     }
 }
