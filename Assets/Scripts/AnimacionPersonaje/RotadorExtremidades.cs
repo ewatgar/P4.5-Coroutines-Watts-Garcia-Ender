@@ -21,15 +21,11 @@ public class RotadorExtremidades : MonoBehaviour
 
     void Update()
     {
-        string nameRoot = transform.root.name;
-        switch (nameRoot){
-            case "Player":
-                //Quiero que Steve ejecutela animación sólo cuando se mueve y no cuando rota también su cámara
-                isWalking = Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0;
-                break;
-            case "Zombie":
-                isWalking = transform.position != ultimaPosicion;
-                break;
+        EnemigoIA enemigo = transform.gameObject.GetComponentInParent<EnemigoIA>();
+        if (enemigo){
+            isWalking = transform.position != ultimaPosicion;
+        } else{
+            isWalking = Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0;
         }
 
         if (isWalking){
