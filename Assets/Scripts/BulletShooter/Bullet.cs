@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    public enum FadeMethod{
+        Lerp,
+        ShoothDamp
+    }
 
     float time = 0;
     [SerializeField] GameObject shotCrackPrefab;
     GameObject shotCrack;
+    public float crackSeconds = 1;
     bool shotCrackPlaced = false;
-    //RaycastHit bulletHit;
+    public FadeMethod fadeMethod = FadeMethod.Lerp;
+    public float fadeTime = 2f;
     
     void Start()
     {
@@ -55,8 +61,34 @@ public class Bullet : MonoBehaviour
             spawnCrack(hit);
             shotCrackPlaced = true;
         }
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(crackSeconds);
+        
+        Material m = shotCrack.GetComponent<Renderer>().material;
+        Color alphaColor = new Color(m.color.r, m.color.g, m.color.b, m.color.a);
+        
+        switch(fadeMethod){
+            case FadeMethod.Lerp:
+                for(float s=0; s<fadeTime; s+=Time.deltaTime){
+                    alphaColor.a = Mathf.Lerp(1, 0, s/fadeTime);
+                    m.color = alphaColor;
+                    yield return null;
+                }
+
+            break;
+            case FadeMethod.ShoothDamp:
+                float v = 0;
+                for(float s=0; s<fadeTime; s+=Time.deltaTime){
+                    //alphaColor.a = Mathf.Lerp(1, 0, s/fadeTime);
+                    alphaColor.a = Mathf.SmoothDamp(1, 0, ref v, s/fadeTime);
+                    m.color = alphaColor;
+                    yield return null;
+                }
+
+            break;
+        }
+        
         Destroy(shotCrack);
         shotCrackPlaced = false;
     }
+
 }
