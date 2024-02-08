@@ -21,4 +21,11 @@ public class EnemySpawner : MonoBehaviour
 
         yield return null;
     }
+
+    private void spawnZombie(){
+        zombie = Instantiate(zombie) as GameObject;
+        zombie.transform.position = transform.position + transform.up*0.01f;
+        zombie.transform.LookAt(hit.point - hit.normal);
+        zombie.transform.SetParent(transform, true);
+    }
 }

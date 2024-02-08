@@ -22,7 +22,6 @@ public class EnemigoIA : MonoBehaviour
     public float maxDistance = 0.2f;
     public GameObject DEBUGCurrentHitObject; //para debugear
     public float DEBUGCurrentHitDistance; //para debugear
-    public Boolean iniciarAnimacion = false;
 
     //---------------------------------
     float vy = -10;
@@ -83,7 +82,7 @@ public class EnemigoIA : MonoBehaviour
 
     private void IniciarAnimacion()
     {
-        estado = EstadoEnemigo.Andando;
+        //estado = EstadoEnemigo.Andando;
         foreach (RotadorExtremidades rotador in rotadores)
         {
             rotador.IniciarAnimacion();
@@ -92,7 +91,7 @@ public class EnemigoIA : MonoBehaviour
 
     private void PararAnimacion()
     {
-        estado = EstadoEnemigo.Parado;
+        //estado = EstadoEnemigo.Parado;
         foreach (RotadorExtremidades rotador in rotadores)
         {
             rotador.PararAnimacion();
