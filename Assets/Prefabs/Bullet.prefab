@@ -153,5 +153,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shotCrackPrefab: {fileID: 2982146233173589351, guid: 7bf52516d6bfb1343b00be05166fe333, type: 3}
   crackSeconds: 1
-  fadeMethod: 1
+  fadeMethod: 0
   fadeTime: 2

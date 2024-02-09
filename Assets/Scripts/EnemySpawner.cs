@@ -11,6 +11,7 @@ public class EnemySpawner : MonoBehaviour
     public int spawnAnimationSeconds = 3;
     private GameObject playerEyes;
     private int numEnemies = 0; 
+    private Vector3 spawnLocation;
 
     void Start()
     {
@@ -41,12 +42,14 @@ public class EnemySpawner : MonoBehaviour
     }
 
     private IEnumerator SpawnEnemyV2(){
+        spawnLocation = transform.position;
         playerEyes = playerPrefab.GetComponentInChildren<Camera>().gameObject;
 
         float range = Random.Range(0, 360);
         Quaternion randRotation = Quaternion.Euler(new Vector3(0, range, 0));
         Vector3 underFloor = transform.position;
         underFloor.y = -1; //para que aparezca debajo del suelo
+        spawnLocation.y += 0.1f; //para que el zombie salga algo más arriba del suelo
         GameObject enemy = Instantiate(enemyPrefab, underFloor, randRotation);
         enemy.GetComponentInChildren<RotadorCabeza>().target = playerEyes;
         enemy.GetComponentInChildren<EnemigoIA>().estado = EnemigoIA.EstadoEnemigo.Parado;
@@ -56,7 +59,7 @@ public class EnemySpawner : MonoBehaviour
 
         while (currentSeconds < spawnAnimationSeconds){
             currentSeconds += Time.deltaTime;
-            enemy.transform.position = Vector3.Lerp(underFloor, transform.position, currentSeconds / spawnAnimationSeconds);
+            enemy.transform.position = Vector3.Lerp(underFloor, spawnLocation, currentSeconds / spawnAnimationSeconds);
             yield return null;
         }
 

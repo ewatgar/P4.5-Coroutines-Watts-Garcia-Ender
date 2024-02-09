@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 47585072}
   - component: {fileID: 47585071}
   - component: {fileID: 47585070}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: TowerWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -274,7 +274,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 54280810}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Nest3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -309,7 +309,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 131544325}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Nest3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -344,7 +344,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 173207221}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Tower2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -381,7 +381,7 @@ GameObject:
   - component: {fileID: 192246412}
   - component: {fileID: 192246411}
   - component: {fileID: 192246410}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -488,7 +488,7 @@ GameObject:
   - component: {fileID: 253448574}
   - component: {fileID: 253448573}
   - component: {fileID: 253448572}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: TowerBridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -595,7 +595,7 @@ GameObject:
   - component: {fileID: 258219781}
   - component: {fileID: 258219780}
   - component: {fileID: 258219779}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: TowerWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -809,7 +809,7 @@ GameObject:
   - component: {fileID: 377444819}
   - component: {fileID: 377444818}
   - component: {fileID: 377444817}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: TowerBridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -916,7 +916,7 @@ GameObject:
   - component: {fileID: 381849321}
   - component: {fileID: 381849320}
   - component: {fileID: 381849319}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1023,7 +1023,7 @@ GameObject:
   - component: {fileID: 406694607}
   - component: {fileID: 406694606}
   - component: {fileID: 406694605}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1130,7 +1130,7 @@ GameObject:
   - component: {fileID: 442930976}
   - component: {fileID: 442930975}
   - component: {fileID: 442930974}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: TowerBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1237,7 +1237,7 @@ GameObject:
   - component: {fileID: 445983634}
   - component: {fileID: 445983633}
   - component: {fileID: 445983632}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1341,7 +1341,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 540949300}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1378,7 +1378,7 @@ GameObject:
   - component: {fileID: 546566971}
   - component: {fileID: 546566970}
   - component: {fileID: 546566969}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1507,7 +1507,7 @@ GameObject:
   - component: {fileID: 569180496}
   - component: {fileID: 569180495}
   - component: {fileID: 569180494}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1614,7 +1614,7 @@ GameObject:
   - component: {fileID: 590927438}
   - component: {fileID: 590927437}
   - component: {fileID: 590927436}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: TowerWallSmall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1721,7 +1721,7 @@ GameObject:
   - component: {fileID: 592166502}
   - component: {fileID: 592166501}
   - component: {fileID: 592166500}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1825,7 +1825,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 621671988}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Nest1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1863,7 +1863,7 @@ GameObject:
   - component: {fileID: 762413231}
   - component: {fileID: 762413230}
   - component: {fileID: 762413229}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1970,7 +1970,7 @@ GameObject:
   - component: {fileID: 767445802}
   - component: {fileID: 767445801}
   - component: {fileID: 767445800}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2256,7 +2256,7 @@ GameObject:
   - component: {fileID: 789389308}
   - component: {fileID: 789389307}
   - component: {fileID: 789389306}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2456,7 +2456,7 @@ GameObject:
   - component: {fileID: 883798344}
   - component: {fileID: 883798343}
   - component: {fileID: 883798342}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2670,7 +2670,7 @@ GameObject:
   - component: {fileID: 940570537}
   - component: {fileID: 940570536}
   - component: {fileID: 940570535}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: BridgeWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2777,7 +2777,7 @@ GameObject:
   - component: {fileID: 951002885}
   - component: {fileID: 951002884}
   - component: {fileID: 951002883}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: TowerBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2884,7 +2884,7 @@ GameObject:
   - component: {fileID: 961146443}
   - component: {fileID: 961146442}
   - component: {fileID: 961146441}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2988,7 +2988,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1046045907}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Nest2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3026,7 +3026,7 @@ GameObject:
   - component: {fileID: 1088559325}
   - component: {fileID: 1088559324}
   - component: {fileID: 1088559323}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: TowerWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3133,7 +3133,7 @@ GameObject:
   - component: {fileID: 1101472346}
   - component: {fileID: 1101472345}
   - component: {fileID: 1101472344}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3240,7 +3240,7 @@ GameObject:
   - component: {fileID: 1106253426}
   - component: {fileID: 1106253425}
   - component: {fileID: 1106253424}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: TowerWallSmall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3347,7 +3347,7 @@ GameObject:
   - component: {fileID: 1133205764}
   - component: {fileID: 1133205763}
   - component: {fileID: 1133205762}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3580,7 +3580,7 @@ GameObject:
   - component: {fileID: 1278019755}
   - component: {fileID: 1278019754}
   - component: {fileID: 1278019753}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3687,7 +3687,7 @@ GameObject:
   - component: {fileID: 1295240742}
   - component: {fileID: 1295240741}
   - component: {fileID: 1295240740}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3794,7 +3794,7 @@ GameObject:
   - component: {fileID: 1307224150}
   - component: {fileID: 1307224149}
   - component: {fileID: 1307224148}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: TowerBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3901,7 +3901,7 @@ GameObject:
   - component: {fileID: 1320335047}
   - component: {fileID: 1320335046}
   - component: {fileID: 1320335045}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: TowerBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4008,7 +4008,7 @@ GameObject:
   - component: {fileID: 1339925230}
   - component: {fileID: 1339925229}
   - component: {fileID: 1339925228}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: TowerWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4115,7 +4115,7 @@ GameObject:
   - component: {fileID: 1360703433}
   - component: {fileID: 1360703432}
   - component: {fileID: 1360703431}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4222,7 +4222,7 @@ GameObject:
   - component: {fileID: 1383918146}
   - component: {fileID: 1383918145}
   - component: {fileID: 1383918144}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4329,7 +4329,7 @@ GameObject:
   - component: {fileID: 1413800355}
   - component: {fileID: 1413800354}
   - component: {fileID: 1413800353}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: BridgeWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4433,7 +4433,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1426479003}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Nest2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4471,7 +4471,7 @@ GameObject:
   - component: {fileID: 1483013918}
   - component: {fileID: 1483013917}
   - component: {fileID: 1483013916}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4578,7 +4578,7 @@ GameObject:
   - component: {fileID: 1541710172}
   - component: {fileID: 1541710171}
   - component: {fileID: 1541710170}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: TowerWallSmall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4792,7 +4792,7 @@ GameObject:
   - component: {fileID: 1583844477}
   - component: {fileID: 1583844476}
   - component: {fileID: 1583844475}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4896,7 +4896,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1603330299}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5040,7 +5040,7 @@ GameObject:
   - component: {fileID: 1632736965}
   - component: {fileID: 1632736964}
   - component: {fileID: 1632736963}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: TowerWallSmall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5147,7 +5147,7 @@ GameObject:
   - component: {fileID: 1633809575}
   - component: {fileID: 1633809574}
   - component: {fileID: 1633809573}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5251,7 +5251,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1741992503}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Fortress
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5293,7 +5293,7 @@ GameObject:
   - component: {fileID: 1745126701}
   - component: {fileID: 1745126700}
   - component: {fileID: 1745126699}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5400,7 +5400,7 @@ GameObject:
   - component: {fileID: 1774018828}
   - component: {fileID: 1774018827}
   - component: {fileID: 1774018826}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5507,7 +5507,7 @@ GameObject:
   - component: {fileID: 1781734474}
   - component: {fileID: 1781734473}
   - component: {fileID: 1781734472}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5718,7 +5718,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1835955241}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Escenario Map
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5755,7 +5755,7 @@ GameObject:
   - component: {fileID: 1897898276}
   - component: {fileID: 1897898275}
   - component: {fileID: 1897898274}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5862,7 +5862,7 @@ GameObject:
   - component: {fileID: 2001221271}
   - component: {fileID: 2001221270}
   - component: {fileID: 2001221269}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5966,7 +5966,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2029615849}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Nest1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6004,7 +6004,7 @@ GameObject:
   - component: {fileID: 2050804885}
   - component: {fileID: 2050804884}
   - component: {fileID: 2050804883}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6108,7 +6108,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2071422440}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Tower2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6142,7 +6142,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2099811539}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Fortress2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6440,7 +6440,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7562145706739629835, guid: e902a136cf25e6d4f9ee4aa54f1c1234, type: 3}
       propertyPath: maxEnemies
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7562145706739629835, guid: e902a136cf25e6d4f9ee4aa54f1c1234, type: 3}
       propertyPath: enemyPrefab
@@ -6452,11 +6452,11 @@ PrefabInstance:
       objectReference: {fileID: 1187702860271297806, guid: 3779d5b0a5b70a3438617c2eea56a9d4, type: 3}
     - target: {fileID: 7562145706739629835, guid: e902a136cf25e6d4f9ee4aa54f1c1234, type: 3}
       propertyPath: delaySpawnSeconds
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7562145706739629835, guid: e902a136cf25e6d4f9ee4aa54f1c1234, type: 3}
       propertyPath: spawnAnimationSeconds
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9069134984193544194, guid: e902a136cf25e6d4f9ee4aa54f1c1234, type: 3}
       propertyPath: m_Name

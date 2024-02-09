@@ -65,8 +65,6 @@ public class Bullet : MonoBehaviour
         
         Material m = shotCrack.GetComponent<Renderer>().material;
         Color alphaColor = new Color(m.color.r, m.color.g, m.color.b, m.color.a);
-        
-
 
         switch(fadeMethod){
             case FadeMethod.Lerp:
