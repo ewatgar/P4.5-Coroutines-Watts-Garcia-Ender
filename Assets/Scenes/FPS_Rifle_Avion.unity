@@ -5658,6 +5658,14 @@ PrefabInstance:
       propertyPath: playerPrefab
       value: 
       objectReference: {fileID: 1187702860271297806, guid: 3779d5b0a5b70a3438617c2eea56a9d4, type: 3}
+    - target: {fileID: 7562145706739629835, guid: e902a136cf25e6d4f9ee4aa54f1c1234, type: 3}
+      propertyPath: delaySpawnSeconds
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7562145706739629835, guid: e902a136cf25e6d4f9ee4aa54f1c1234, type: 3}
+      propertyPath: spawnAnimationSeconds
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 9069134984193544194, guid: e902a136cf25e6d4f9ee4aa54f1c1234, type: 3}
       propertyPath: m_Name
       value: SpawnPoint
