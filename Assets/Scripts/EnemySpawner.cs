@@ -5,13 +5,15 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     public GameObject enemyPrefab;
-
     public GameObject playerPrefab;
+    [Range(4,300)] public float delaySpawnSeconds = 10 ;
+    public int maxEnemies = 10;
     private GameObject playerEyes;
+    private int numEnemies = 0; 
 
     void Start()
     {
-        StartCoroutine(SpawnEnemy());
+        StartCoroutine(SpawnEnemies());
     }
 
     void Update()
@@ -20,17 +22,15 @@ public class EnemySpawner : MonoBehaviour
     }
 
     private IEnumerator SpawnEnemy(){
-        float rango = Random.Range(0, 360);
-
-        GameObject enemy = Instantiate(enemyPrefab);
-        enemy.transform.position = transform.position + transform.up*0.01f;
-        enemy.transform.localEulerAngles = new Vector3(0, rango, 0);
-
         playerEyes = playerPrefab.GetComponentInChildren<Camera>().gameObject;
 
+        float range = Random.Range(0, 360);
+        Quaternion randRotation = Quaternion.Euler(new Vector3(0, range, 0));
+        GameObject enemy = Instantiate(enemyPrefab, transform.position, randRotation);
+        
         enemy.GetComponentInChildren<RotadorCabeza>().target = playerEyes;
         enemy.GetComponentInChildren<EnemigoIA>().estado = EnemigoIA.EstadoEnemigo.Parado;
-        enemy.transform.SetParent(transform, true);
+        numEnemies++;
 
         yield return new WaitForSeconds(1);
 
@@ -39,7 +39,10 @@ public class EnemySpawner : MonoBehaviour
         yield return null;
     }
 
-    /*private IEnumerator SpawnEnemies(){
-
-    }*/
+    private IEnumerator SpawnEnemies(){
+        while(numEnemies < maxEnemies){
+            StartCoroutine(SpawnEnemy());
+            yield return new WaitForSeconds(delaySpawnSeconds);
+        }
+    }
 }
