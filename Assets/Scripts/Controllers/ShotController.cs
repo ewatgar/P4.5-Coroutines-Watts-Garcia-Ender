@@ -1,3 +1,7 @@
+/*
+ShotController no se está utilizando, el desvanecimiento de los 
+disparos se ha implementado en el script Bullet
+*/
 
 using UnityEngine;
 

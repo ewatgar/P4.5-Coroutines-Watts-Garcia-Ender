@@ -5,13 +5,13 @@ using UnityEngine;
 
 public class EnemigoIA : MonoBehaviour
 {
-    enum EstadoEnemigo
+    public enum EstadoEnemigo
     {
         Parado = 0,
         Andando = 1
     }
 
-    [SerializeField] EstadoEnemigo estado;
+    public EstadoEnemigo estado;
     private RotadorExtremidades[] rotadores;
     private CharacterController characterController;
     public float speed = 2;

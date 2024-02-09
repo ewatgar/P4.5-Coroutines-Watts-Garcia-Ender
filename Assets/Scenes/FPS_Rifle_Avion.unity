@@ -1705,11 +1705,6 @@ Transform:
   - {fileID: 1360703430}
   m_Father: {fileID: 2099811539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &690381025 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4353931511873242449, guid: 3779d5b0a5b70a3438617c2eea56a9d4, type: 3}
-  m_PrefabInstance: {fileID: 7295550275142276247}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &762413227
 GameObject:
   m_ObjectHideFlags: 0
@@ -4425,71 +4420,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1541710168}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &1577376426
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 395035384423660578, guid: 95098cbd56738f94aae995488e6e5449, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -22.245949
-      objectReference: {fileID: 0}
-    - target: {fileID: 395035384423660578, guid: 95098cbd56738f94aae995488e6e5449, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.13499999
-      objectReference: {fileID: 0}
-    - target: {fileID: 395035384423660578, guid: 95098cbd56738f94aae995488e6e5449, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.2146473
-      objectReference: {fileID: 0}
-    - target: {fileID: 395035384423660578, guid: 95098cbd56738f94aae995488e6e5449, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 395035384423660578, guid: 95098cbd56738f94aae995488e6e5449, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 395035384423660578, guid: 95098cbd56738f94aae995488e6e5449, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 395035384423660578, guid: 95098cbd56738f94aae995488e6e5449, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 395035384423660578, guid: 95098cbd56738f94aae995488e6e5449, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 395035384423660578, guid: 95098cbd56738f94aae995488e6e5449, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 395035384423660578, guid: 95098cbd56738f94aae995488e6e5449, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4379245773500295259, guid: 95098cbd56738f94aae995488e6e5449, type: 3}
-      propertyPath: target
-      value: 
-      objectReference: {fileID: 690381025}
-    - target: {fileID: 5635242452880851102, guid: 95098cbd56738f94aae995488e6e5449, type: 3}
-      propertyPath: iniciarAnimacion
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7111124358194191666, guid: 95098cbd56738f94aae995488e6e5449, type: 3}
-      propertyPath: m_Name
-      value: Zombie
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 95098cbd56738f94aae995488e6e5449, type: 3}
 --- !u!1 &1583844473
 GameObject:
   m_ObjectHideFlags: 0
@@ -5716,6 +5646,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7562145706739629835, guid: e902a136cf25e6d4f9ee4aa54f1c1234, type: 3}
+      propertyPath: enemyPrefab
+      value: 
+      objectReference: {fileID: 7111124358194191666, guid: 95098cbd56738f94aae995488e6e5449, type: 3}
+    - target: {fileID: 7562145706739629835, guid: e902a136cf25e6d4f9ee4aa54f1c1234, type: 3}
+      propertyPath: playerPrefab
+      value: 
+      objectReference: {fileID: 1187702860271297806, guid: 3779d5b0a5b70a3438617c2eea56a9d4, type: 3}
     - target: {fileID: 9069134984193544194, guid: e902a136cf25e6d4f9ee4aa54f1c1234, type: 3}
       propertyPath: m_Name
       value: SpawnPoint
@@ -5854,5 +5792,4 @@ SceneRoots:
   - {fileID: 7295550275142276247}
   - {fileID: 7906492769370556707}
   - {fileID: 777791561}
-  - {fileID: 1577376426}
   - {fileID: 7228035670104005640}
